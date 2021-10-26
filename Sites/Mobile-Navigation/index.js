@@ -11,16 +11,16 @@ burger.addEventListener("click", function() {
 
 // remove burger icon on larger screens
 
-window.addEventListener("resize", function(){
-    if (window.innerWidth > 768) { 
-        burger.classList.add("hide");
-        navbar.classList.remove("hide");
+// window.addEventListener("resize", function(){
+//     if (window.innerWidth > 768) { 
+//         burger.classList.add("hide");
+//         navbar.classList.remove("hide");
 
-    } else { 
-        burger.classList.remove("hide");
-        navbar.classList.add("hide");
-    }
-})
+//     } else { 
+//         burger.classList.remove("hide");
+//         navbar.classList.add("hide");
+//     }
+// })
 
 
 // change header background on scroll 
